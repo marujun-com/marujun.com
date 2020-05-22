@@ -1,0 +1,1 @@
+DD_belatedPNG.fix('img, body, header nav, footer, .footer_copyright, .entry_board-area, .entry_form-tab-box1, .entry_form-tab-box2');

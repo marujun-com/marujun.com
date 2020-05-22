@@ -1,0 +1,97 @@
+/* CSS Document */
+
+@charset "utf-8";
+/* ===================================================================
+CSS information
+ file name  :  default.css
+ style info :  リセット及びbody初期設定 (このスタイルシートは基本的に変更しない)
+=================================================================== */
+/*--- reset */
+html {
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,footer,header,nav,section,article,img,aside {
+	margin: 0px;
+	padding: 0px;
+}
+footer, header, nav, section, article{
+	display:block;
+}
+address,caption,cite,code,dfn,em,strong,var {
+	font-style: normal;
+}
+caption,th {
+	text-align: left;
+	font-weight:bold;
+}
+q:before,q:after {
+	content: '';
+}
+object,
+embed {
+	vertical-align: top;
+}
+hr,legend {
+}
+h1,h2,h3,h4,h5,h6,textarea {
+	font-size: 100%;
+	font-weight:normal;
+}
+img,abbr,acronym,fieldset {
+	border: 0;
+}
+li {
+	list-style-type: none;
+}
+table {
+	font-size:100%;
+	border-collapse:collapse;
+	vertical-align:top;
+}
+img{
+	line-height:0;
+}
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+ 
+.cf:after {
+    clear:both;
+}
+ 
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+
+.clear{
+	clear:both;
+}
+
+
+/*--- リンクカラー */
+a:link , a:link , a:visited{
+	color:#453225;
+	text-decoration:underline;
+}
+a:hover{
+	color:#453225;
+	text-decoration:none;
+}
+a { outline : 0 ; }
+
+
+
+/*--- default */
+body {
+	color:#453225;
+	font-family:'Lucida Grande',"ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;;
+	line-height: 1.8;
+	font-size:79%;
+	text-align:left;
+}
+* html body {	/* for IF6 */
+	font-family: "ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
