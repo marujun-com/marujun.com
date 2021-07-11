@@ -13,6 +13,10 @@ hr {
     text-align: center;
 }
 
+span.colored {
+    background:linear-gradient(transparent 60%, #ff6 60%);
+}
+
 main {
     padding: 0 16px;
     max-width: 1024px;
@@ -67,15 +71,20 @@ main > h2 {
     text-align: center;
 }
 
-/**
- * SNSリンク
- */
-
 .hero-profile img.president {
     width: 160px;
     height: 160px;
     border-radius: 100%;
 }
+
+.hero p {
+    line-height: 1.8rem;
+}
+
+/**
+ * SNSリンク
+ */
+
 
 ul.social-link {
     margin: 32px 0;
