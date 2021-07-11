@@ -23,7 +23,7 @@ main {
     margin: auto;
 }
 
-img {
+img.auto-resize {
     width:auto;
     height:auto;
     max-width:100%;
@@ -76,6 +76,7 @@ main > h2 {
 
 .hero-profile {
     text-align: center;
+    flex-shrink: 1;
 }
 
 .hero-profile img.president {
