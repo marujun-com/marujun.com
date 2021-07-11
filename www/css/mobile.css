@@ -1,0 +1,42 @@
+@media screen and (max-width: 680px) {
+    .hero {
+        display: block;
+    }
+
+    .hero-profile {
+        padding-bottom: 8px;
+    }
+
+    .social-link li {
+        margin-bottom: 16px;
+        min-width: 30%;
+        max-width: 30%;
+    }
+
+    article {
+        display: block;
+    }
+
+    article > section {
+        min-width: auto;
+        max-width: 100%;
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .social-link li {
+        min-width: 40%;
+        max-width: 40%;
+    }
+    table {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .social-link li {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
