@@ -89,7 +89,6 @@ main
     display: flex;
     width: 131px;
     height: 37px;
-    padding: 7px 11px;
     justify-content: center;
     align-items: center;
     color: #1E3C78;
@@ -101,9 +100,11 @@ main
     margin-left: auto;
 }
 
-.about__btn:hover {
-    transform: translateY(-10px);
-    transition: all 0.2s;
+.about__btn a {
+    width: calc(100% - 22px);
+    text-align: center;
+    display: block;
+    margin: 7px 11px;
 }
 
 
@@ -254,7 +255,6 @@ main
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1.92px;
-    padding: 7px 11px;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
@@ -264,9 +264,11 @@ main
 
 }
 
-.work__btn:hover {
-    transform: translateY(-10px);
-    transition: all 0.2s;
+.work__btn a {
+    width: calc(100% - 22px);
+    text-align: center;
+    display: block;
+    margin: 7px 11px;
 }
 
 /* .work pc */
