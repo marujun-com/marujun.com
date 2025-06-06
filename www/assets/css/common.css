@@ -451,7 +451,7 @@ footer
     align-items: center;
     justify-content: center;
     padding: 14px 38px;
-    width: 154px;
+    min-width: 160px;
     height: 46.7px;
     color: #1E3C78;
     font-family: "Noto Sans JP";
@@ -467,7 +467,7 @@ footer
     align-items: center;
     justify-content: center;
     padding: 14px 38px;
-    width: 154px;
+    min-width: 160px;
     height: 46.7px;
     color: #FFF;
     font-family: "Noto Sans JP";
@@ -527,7 +527,6 @@ footer
         align-items: center;
         justify-content: center;
         padding: 15px 41px;
-        width: 195px;
         height: 59px;
         color: #1E3C78;
         font-family: "Noto Sans JP";
@@ -543,7 +542,6 @@ footer
         align-items: center;
         justify-content: center;
         padding: 15px 41px;
-        width: 195px;
         height: 59px;
         color: #FFF;
         font-family: "Noto Sans JP";
